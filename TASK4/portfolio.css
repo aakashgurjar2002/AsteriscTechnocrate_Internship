@@ -1,0 +1,139 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top 10px; 
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(37, 37, 113);
+}
+.element {
+         backdrop-filter: none;
+        }
+
+header {
+    background-color: #310333;
+    color: white;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: -41px;
+	color:white;
+}
+h2{
+	color:white;
+}
+h3{
+	margin-left: 45px;
+	color:white;
+}
+h1{
+color:white;
+font-size:35px;
+ margin-left: 45px;
+ color:white
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+	flex:1;
+}
+
+section {
+    padding: 40px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+.social-media {
+    text-align: left;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.typing-effect {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 8s steps(25, end);
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.image-container {
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
+    margin-top: -280px;
+
+}
+
+.image-container img {
+    vertical-align: top;
+    margin-top: -20px;
+    margin-right: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
